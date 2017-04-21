@@ -1,24 +1,12 @@
-# README
+Dependencies:
+- NPM
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Setup:
+- bundle install
+- npm install
 
-Things you may want to cover:
+Run:
+To build JS, run ./node_modules/webpack/bin/webpack.js --config webpack.config.dev.js --watch --colors
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+References:
+- http://www.delight.consulting/blog/monolithic-rails-react-redux-application/
